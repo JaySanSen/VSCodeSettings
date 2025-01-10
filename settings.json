@@ -489,7 +489,8 @@
 				],
 				"settings": {
 					"fontStyle": "",
-					"foreground": "#9ece6a"
+					// "foreground": "#9ece6a"
+					"foreground": "#e9b285"
 				}
 			},
 			{
@@ -707,7 +708,7 @@
 				],
 				"settings": {
 					//"foreground": "#c0caf5"
-					"foreground": "#f06dbd"
+					"foreground": "#e083bd"
 
 				}
 			},

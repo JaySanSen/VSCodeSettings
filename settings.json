@@ -28,9 +28,10 @@
 	"editor.mouseWheelZoom": true,
 	"files.autoSaveWhenNoErrors": true,
 	"update.enableWindowsBackgroundUpdates": false,
-	"editor.inlayHints.fontSize": 12,
-	"editor.lineNumbers": "relative",
+	"editor.inlayHints.fontSize": 10,
+	"editor.lineNumbers": "on",
 	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"editor.fontLigatures": false,
 
 	//For Use with C# Extension {C# and .NET Install Tool}
 	"csharp.suppressHiddenDiagnostics": false,
@@ -141,7 +142,8 @@
 		"editorBracketPairGuide.activeBackground5": "#8cbd59",
 		"editorBracketPairGuide.activeBackground6": "#ca9a51",
 		"selection.background": "#515c7e40",
-		"editor.background": "#0c0d11",
+		//"editor.background": "#0c0d11",
+		"editor.background": "#000000",
 		"editor.foreground": "#a9b1d6",
 		"editor.foldBackground": "#1111174a",
 		"editorLink.activeForeground": "#acb0d0",
@@ -424,7 +426,9 @@
 					"string.quoted.docstring.multi.python constant.character.escape"
 				],
 				"settings": {
-					"foreground": "#98989b"
+					//"foreground": "#98989b"
+					"foreground": "#616163"
+
 				}
 			},
 			{
@@ -646,7 +650,8 @@
 					"keyword.operator.or.regexp"
 				],
 				"settings": {
-					"foreground": "#bb9af7"
+					//"foreground": "#bb9af7"
+					"foreground": "#b16bf1"
 				}
 			},
 			{
@@ -701,7 +706,9 @@
 					"meta.function-call meta.function-call.arguments"
 				],
 				"settings": {
-					"foreground": "#c0caf5"
+					//"foreground": "#c0caf5"
+					"foreground": "#f06dbd"
+
 				}
 			},
 			{
@@ -804,7 +811,8 @@
 					"meta.function.parameter variable"
 				],
 				"settings": {
-					"foreground": "#e0af68" //#73daca
+					//"foreground": "#e0af68" //#73daca
+					"foreground": "#eea60a" //#73daca
 				}
 			},
 			{

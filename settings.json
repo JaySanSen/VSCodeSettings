@@ -342,7 +342,7 @@
 		"debugIcon.breakpointDisabledForeground": "#414761",
 		"debugIcon.breakpointUnverifiedForeground": "#c24242",
 		"terminal.background": "#000000",
-		"terminal.foreground": "#c2c4cc",
+		"terminal.foreground": "#eceef2",
 		"terminal.selectionBackground": "#515c7e4d",
 		// "terminalCursor.background": "",
 		// "terminalCursor.foreground": "",
@@ -1611,7 +1611,10 @@
 		"<C-d>": true,
 		"<C-s>": true,
 		"<C-z>": true,
-		"<C-p>": true
+		"<C-p>": true,
+		"<C-f>": true,
+		"<C-c>": true,
+		"<C-v>": true
 	},
 	"vim.normalModeKeyBindings": [
 		{
@@ -1678,7 +1681,18 @@
 				"editor.fold"
 			],
 			"silent": true
-		}
+		},
+		{
+			"before": [
+				"<leader>",
+				"t",
+				"s"
+			],
+			"commands": [
+				"workbench.action.toggleSidebarVisibility"
+			],
+			"silent": true
+		},
 	],
 	"vim.mouseSelectionGoesIntoVisualMode": false
 }
